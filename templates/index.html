@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Blog do {{nome}}</h1>
+    <h4>Posts Recentes</h4>
+    <ul>
+      {% for post in posts %}
+        <li>{{post}}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>

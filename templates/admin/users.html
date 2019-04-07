@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>{{admin}}</h1>
+    <h4>Usuários</h4>
+    <ul>
+      {% for user in users %}
+        <li>{{user}}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
